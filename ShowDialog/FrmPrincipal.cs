@@ -14,6 +14,7 @@ namespace ShowDialog
     {
         private Pelicula unaPeli;
         private  List<string> listaItems;
+
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -23,18 +24,19 @@ namespace ShowDialog
         private void btn_cargarNuevo_Click(object sender, EventArgs e)
         {
             FrmAlta formAlta = new FrmAlta();
-        
-            if(formAlta.ShowDialog() == DialogResult.OK)
+            DialogResult resultado = formAlta.ShowDialog();
+            if (resultado == DialogResult.OK)
             {
-                listaItems.Add(formAlta.Mensaje);
-
                 rtb_mostrarLista.Clear();
-
+                listaItems.Add(formAlta.Mensaje);
                 foreach (string item in listaItems)
                 {
                     rtb_mostrarLista.Text += item + "\n";
                 }
-               
+            }
+            else
+            {
+                MessageBox.Show("Evento cancelado");
             }
         }
 
@@ -88,7 +90,6 @@ namespace ShowDialog
         {
             FrmPadre formularioPadre = new FrmPadre();
             formularioPadre.Show();
-           
         }
 
         private void button3_Click(object sender, EventArgs e)

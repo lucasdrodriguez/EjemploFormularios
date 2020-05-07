@@ -34,11 +34,9 @@ namespace ShowDialog
                 this.nombre = this.textBox1.Text;
                 this.personajePrincipal = this.textBox3.Text;
                 // el año ya fue asignado a la variable año en el int.tryParse  ;)
-                
-                
+                       
                 this.DialogResult = DialogResult.OK; // da cierre al form enviando el resultado OK al otro form.
             }
-              
         }
 
         public Pelicula RetornarPelicula()
@@ -55,8 +53,6 @@ namespace ShowDialog
         {
             this.DialogResult = DialogResult.Cancel;
         }
-
-
 
         public void SetCamposModificar(Pelicula info)
         {
