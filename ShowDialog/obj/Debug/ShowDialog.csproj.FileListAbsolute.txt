@@ -1,0 +1,11 @@
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\bin\Debug\ShowDialog.exe.config
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\bin\Debug\ShowDialog.exe
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\bin\Debug\ShowDialog.pdb
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\obj\Debug\ShowDialog.csprojAssemblyReference.cache
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\obj\Debug\ShowDialog.FrmAlta.resources
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\obj\Debug\ShowDialog.Properties.Resources.resources
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\obj\Debug\ShowDialog.csproj.GenerateResource.cache
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\obj\Debug\ShowDialog.exe
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\obj\Debug\ShowDialog.pdb
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\obj\Debug\ShowDialog.FrmPrincipal.resources
+C:\Users\IsmashiSan\source\repos\EjemplosForms\ShowDialog\obj\Debug\ShowDialog.FrmSolicitud.resources
